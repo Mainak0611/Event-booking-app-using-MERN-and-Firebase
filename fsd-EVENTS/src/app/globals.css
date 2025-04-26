@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700&display=swap");
+
+.cl-internal-b3fm6y {
+  display: none !important;
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.font-semibold {
+  font-weight: 700 !important;
+}
+
+th {
+  border-radius: 0px !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.7s ease-in-out;
+}
+
+.text-shadow {
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8); /* More pronounced shadow */
+}
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 650 !important;
+}
+
+.font-semibold {
+  font-weight: 450 !important;
+}
